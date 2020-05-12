@@ -1,0 +1,36 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+  background-color: rgb(141, 145, 141) ;
+  color: #D0F0C0;
+}
+#app {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+.form {
+  display: flex;
+}
+#resp {
+  border: 1px solid #D0F0C0;
+  background-color: white;
+  overflow: auto;
+  width: auto;
+  height: 500px;
+}
+#method {
+  color: rgb(141, 145, 141);
+  font-weight: bold;
+  border: none;
+}
+
+button {
+  background-color: #D0F0C0;
+  border-radius: 5px; 
+}
+#id {
+  width: 75%;
+}

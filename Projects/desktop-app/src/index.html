@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Postman</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div id='app'>Welcome to Postman</div>
+    <div class='form'>
+      <div>Request:</div>
+      <select id="method" name="method">
+        <option value="get">Get</option>
+        <option value="post">Post</option>
+        <option value="put">Put</option>
+        <option value="delete">Delete</option>
+      </select>
+      <input type='textbox' class='txtbxItem' id='uri'/>
+      <button onclick="handleRequest()">Submit</button>
+    </div>
+    <div class='response'>
+      <div>Response:</div>
+      <div id='resp'></div>
+    </div>
+    <script src='./index.js'></script>
+  </body>
+</html>
